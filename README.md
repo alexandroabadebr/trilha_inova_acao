@@ -1,2 +1,2 @@
-# trilha_inova_acao
+# Trilha Ruby on Rails - Inova.Ação
 Trilha Ruby on Rails
