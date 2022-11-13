@@ -1,0 +1,6 @@
+puts "********************* E-COMMERCE INOVA.ACAO AFRO - CESAR ********************"
+puts "*"
+puts "*"
+puts "Selecione a opção desejada:"
+puts "[ 1 ] Comprar"
+puts "[ 2 ] Sair"
