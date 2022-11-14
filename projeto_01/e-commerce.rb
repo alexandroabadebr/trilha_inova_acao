@@ -5,28 +5,41 @@ puts "*"
 loop do
   puts "Selecione a opção desejada:\n[ 1 ] Comprar\n[ 2 ] Sair"
   print 'Opção: '
-  opcao_desejada = gets.to_i
+  opcao_desejada = gets.chomp.to_i
   puts "\n"
+
 # ____________________ end menu e-commerce ____________________ 
 
 def purchase
-  puts "Selecione a opção desejada: "
-  puts "[ 1 ] Sticker - Penguin Linux: R$39,00"
+  puts "Selecione o sticker que deseja:"
+  puts "[ 1 ] Sticker - Penguin Linux: R$5,99"
   puts "[ 2 ] Sticker - Ruby on Rails: R$4,99"
   puts "[ 3 ] Sticker - Java Script: R$3,99"
   print 'Opção: '
-  product = gets.to_i
+  select_product = gets.chomp.to_i 
+  puts "\n"
+  
+  if select_product == 1
+    price = 5.99
+  elsif select_product == 2
+    price = 4.99
+  elsif select_product == 3
+    price = 3.99
+  else
+    puts "Por favor, igite uma das opções a cima."
+  end
 
-  if product == 1 || product == 2 || product == 3  
-    print "Digite a quantidade desejada: "
-    amount = gets.to_i
-    subtotal = amount ** 2 
-    puts "Subtotal: R$#{subtotal.to_f}"
-    print "Digite [ 0 ] para voltar ao menu inicial: "
-    back = gets.to_i
-    if back == 0
-      system "clear"
-    end
+  print "Digite a quantidade desejada: "
+  amount_product = gets.to_i
+  subtotal = amount_product * price
+  puts "Subtotal: R$#{subtotal}"
+  
+  puts "\n"
+  print "Digite [ 0 ] para voltar ao menu inicial: "
+  back_screen = gets.chomp.to_i
+    
+  if back_screen == 0
+    system "clear"
   end
 end 
 # ____________________ end method purchase ____________________
