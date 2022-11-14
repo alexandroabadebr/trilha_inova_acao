@@ -44,16 +44,15 @@ def purchase
 end 
 # ____________________ end method purchase ____________________
 
-
 def goodbye
   count = 0
-  print 'Finalizando'
+  print '# Finalizando'
   while count < 3
     sleep 1
     print "."
     count += 1
   end
-  goodbye = [" ","G","o","o","d"," ","B","y","e","!"]
+  goodbye = [" ","G","o","o","d","_","B","y","e","!"]
   for i in goodbye
   		sleep 1
   		print i
