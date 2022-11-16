@@ -18,7 +18,8 @@ def purchase
   print 'Opção: '
   select_product = gets.chomp.to_i 
   puts "\n"
-  
+
+# Refatorar essa estrutura condicional  
   if select_product == 1
     price = 5.99
   elsif select_product == 2
@@ -28,6 +29,7 @@ def purchase
   else
     puts "Por favor, igite uma das opções a cima."
   end
+# ____________________________________________________________end
 
   print "Digite a quantidade desejada: "
   amount_product = gets.to_i
