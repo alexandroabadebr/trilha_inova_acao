@@ -8,4 +8,4 @@
 > 
 > Houve algumas mudanças, então pode ser que a captura original a cima esteja um pouco diferente da interface após a última atualização.
 ## Como iniciar a plataforma de E-commerce
-`# ruby e-commerce`
+`# ruby e-commerce.rb`
