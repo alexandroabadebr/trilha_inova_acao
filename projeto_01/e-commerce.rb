@@ -8,7 +8,7 @@ loop do
   opcao_desejada = gets.chomp.to_i
   puts "\n"
 
-# ____________________ end menu e-commerce ____________________ 
+  # ____________________ end menu e-commerce ____________________ 
 
 def purchase
   puts "Selecione o sticker que deseja:"
@@ -19,7 +19,7 @@ def purchase
   select_product = gets.chomp.to_i 
   puts "\n"
 
-# Refatorar essa estrutura condicional  
+  # Refatorar essa estrutura condicional  
   if select_product == 1
     price = 5.99
   elsif select_product == 2
@@ -29,7 +29,7 @@ def purchase
   else
     puts "Por favor, igite uma das opções a cima."
   end
-# ____________________________________________________________end
+  # ____________________________________________________________end
 
   print "Digite a quantidade desejada: "
   amount_product = gets.to_i
@@ -44,7 +44,7 @@ def purchase
     system "clear"
   end
 end 
-# ____________________ end method purchase ____________________
+  # ____________________ end method purchase ____________________
 
 def goodbye
   count = 0
