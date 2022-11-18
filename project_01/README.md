@@ -2,7 +2,7 @@
   
 # Trilha Ruby on Rails - Inova.Ação
 
-> E-COMMERCE
+### E-COMMERCE
   
 [Screencast from 13-11-2022 18:09:36.webm](https://user-images.githubusercontent.com/5865711/201545256-1efcc743-97bf-473d-a49e-0bc8683dfe04.webm)
 
