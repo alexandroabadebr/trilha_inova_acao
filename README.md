@@ -10,7 +10,7 @@ O Inova.Ação Afro | CESAR é um programa de desenvolvimento técnico voltado a
 
 
 ### 2º Projeto 
-## Plataforma - Catálogo de Filmes
+## Plataforma | Catálogo de Filmes
 [adicionar screenshot ou screencast do catálogo de filmes aqui]
 
 <img style="align: center; width: 20%;"
