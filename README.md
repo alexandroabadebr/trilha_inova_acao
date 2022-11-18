@@ -3,14 +3,14 @@
 # Inova.Ação AFRO
 O Inova.Ação Afro | CESAR é um programa de desenvolvimento técnico voltado apenas para pessoas autodeclaradas pretas e pardas. Idealizado em parceria com a Prosper Tech Talents e o CESAR, o programa forma, qualifica e oferece oportunidades para profissionais na área de tecnologia, com o objetivo de fomentar o número de pessoas pretas na área de TI no mercado de trabalho.
 
-### 1º Projeto 
-## Plataforma | E-commerce
+## 1º Projeto 
+### Plataforma | E-commerce
 
 [Screencast from 13-11-2022 18:09:36.webm](https://user-images.githubusercontent.com/5865711/201545256-1efcc743-97bf-473d-a49e-0bc8683dfe04.webm)
 
 
-### 2º Projeto 
-## Plataforma | Catálogo de Filmes
+## 2º Projeto 
+### Plataforma | Catálogo de Filmes
 [adicionar screenshot ou screencast do catálogo de filmes aqui]
 
 <img style="align: center; width: 20%;"
