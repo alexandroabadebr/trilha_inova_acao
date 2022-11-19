@@ -1,7 +1,24 @@
-![Screenshot from 2022-11-13 13-09-15](https://user-images.githubusercontent.com/5865711/201531959-b1f1b050-561a-40b7-8e54-d43e4af54ea6.png)
-  
-# Trilha Ruby on Rails - Inova.Ação
+# README
 
-### CATÁLOGO DE FILMES 🎬️
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-[adicionar screenshot ou screencast do catálogo de filmes aqui]
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
