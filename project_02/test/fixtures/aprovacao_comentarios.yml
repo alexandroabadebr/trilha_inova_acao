@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comentario: one
+  data_aprovacao: 2022-11-20
+
+two:
+  comentario: two
+  data_aprovacao: 2022-11-20

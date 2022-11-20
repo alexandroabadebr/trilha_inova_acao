@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Aprovacao comentarios</h1>
+
+<div id="aprovacao_comentarios">
+  <% @aprovacao_comentarios.each do |aprovacao_comentario| %>
+    <%= render aprovacao_comentario %>
+    <p>
+      <%= link_to "Show this aprovacao comentario", aprovacao_comentario %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New aprovacao comentario", new_aprovacao_comentario_path %>

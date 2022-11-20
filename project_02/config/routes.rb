@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :aprovacao_comentarios
   resources :comentarios
   resources :ators
   resources :filmes

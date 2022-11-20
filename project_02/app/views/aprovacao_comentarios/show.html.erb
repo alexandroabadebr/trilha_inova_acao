@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @aprovacao_comentario %>
+
+<div>
+  <%= link_to "Edit this aprovacao comentario", edit_aprovacao_comentario_path(@aprovacao_comentario) %> |
+  <%= link_to "Back to aprovacao comentarios", aprovacao_comentarios_path %>
+
+  <%= button_to "Destroy this aprovacao comentario", @aprovacao_comentario, method: :delete %>
+</div>

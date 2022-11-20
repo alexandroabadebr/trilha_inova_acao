@@ -1,0 +1,27 @@
+<%= form_with(model: aprovacao_comentario) do |form| %>
+  <% if aprovacao_comentario.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(aprovacao_comentario.errors.count, "error") %> prohibited this aprovacao_comentario from being saved:</h2>
+
+      <ul>
+        <% aprovacao_comentario.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :comentario_id, style: "display: block" %>
+    <%= form.text_field :comentario_id %>
+  </div>
+
+  <div>
+    <%= form.label :data_aprovacao, style: "display: block" %>
+    <%= form.date_field :data_aprovacao %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
