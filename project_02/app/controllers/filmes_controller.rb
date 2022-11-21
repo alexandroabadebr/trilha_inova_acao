@@ -1,5 +1,6 @@
 class FilmesController < ApplicationController
   before_action :set_filme, only: %i[ show edit update destroy ]
+  before_action :set_all_ators, only: %i[new edit create update]
 
   # GET /filmes or /filmes.json
   def index
@@ -61,6 +62,10 @@ class FilmesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_filme
       @filme = Filme.find(params[:id])
+    end
+
+    def set_all_ators
+      @all_ators = Ator.all
     end
 
     # Only allow a list of trusted parameters through.

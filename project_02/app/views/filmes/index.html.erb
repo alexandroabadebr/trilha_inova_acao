@@ -4,7 +4,7 @@
 
 <div id="filmes">
   <% @filmes.each do |filme| %>
-    <%= render filme %>
+    <%= render filme, show_alenco_atores: false %>
     <p>
       <%= link_to "Show this filme", filme %>
     </p>

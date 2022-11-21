@@ -1,5 +1,6 @@
 class ComentariosController < ApplicationController
   before_action :set_comentario, only: %i[ show edit update destroy ]
+  before_action :set_all_filmes, only: %i[new edit create update]
 
   # GET /comentarios or /comentarios.json
   def index
@@ -63,8 +64,12 @@ class ComentariosController < ApplicationController
       @comentario = Comentario.find(params[:id])
     end
 
+    def set_all_filmes
+      @all_filmes = Filme.all.pluck(:titulo, :id)
+    end
+
     # Only allow a list of trusted parameters through.
     def comentario_params
       params.require(:comentario).permit(:comentario, :Filme_id)
     end
-end
+  end

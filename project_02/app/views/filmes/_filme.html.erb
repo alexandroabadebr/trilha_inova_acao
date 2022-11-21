@@ -9,10 +9,19 @@
     <%= filme.ano_lancamento %>
   </p>
 
+  <%if show_alenco_atores%>
   <p>
     <strong>Alenco atores:</strong>
     <%= filme.alenco_atores %>
+    <ul>
+    <% filme.ators.each do |ator|%>
+    <li>
+    <%= ator.nome %>
+    </li>
+    <% end %>
+    </ul>
   </p>
+  <% end %>
 
   <p>
     <strong>Comentarios:</strong>
