@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_20_184807) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_21_174046) do
   create_table "aprovacao_comentarios", force: :cascade do |t|
     t.integer "comentario_id", null: false
     t.date "data_aprovacao"
@@ -34,6 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_20_184807) do
     t.integer "Filme_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "approved", default: false
     t.index ["Filme_id"], name: "index_comentarios_on_Filme_id"
   end
 
