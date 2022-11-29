@@ -11,7 +11,7 @@ O Inova.Ação Afro | CESAR é um programa de desenvolvimento técnico voltado a
 
 ## 2º Projeto 
 ### Plataforma | Catálogo de Filmes
-[adicionar screenshot ou screencast do catálogo de filmes aqui]
+![Filme Catalog](https://user-images.githubusercontent.com/5865711/204416399-243d1315-9f71-49f0-a47e-b00491ae837a.png)
 
 <img style="align: center; width: 20%;"
   src="https://d335luupugsy2.cloudfront.net/cms/files/68179/1663595152/$f4tob652ia" alt="logo_cesar" title="Imagem Logo do CESAR" width="150"/>
